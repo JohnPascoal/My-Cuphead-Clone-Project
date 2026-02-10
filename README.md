@@ -11,7 +11,7 @@ Este projeto é **exclusivamente para fins educacionais, não comerciais e de po
 * **Propriedade Intelectual:** Todos os direitos de marca, nome, personagens, arte visual e trilha sonora pertencem à **Studio MDHR**. Este projeto não é oficial e não possui qualquer afiliação com a desenvolvedora.
 * **Finalidade:** Este código foi escrito como um exercício técnico de programação e design de jogos. Não há intenção de violar direitos autorais.
 * **Distribuição:** Este repositório não fornece o jogo completo e não deve ser utilizado para fins lucrativos ou pirataria.
-* **Licença: ** A licença MIT aplica-se estritamente aos arquivos .cs. Os arquivos de imagem e som contidos na pasta /Assets/Sprites são propriedade da Studio MDHR e estão aqui apenas para fins de demonstração técnica.
+* **Licença:** A licença MIT aplica-se estritamente aos arquivos .cs. Os arquivos de imagem e som contidos na pasta /Assets/Sprites são propriedade da Studio MDHR e estão aqui apenas para fins de demonstração técnica.
 
 ---
 
