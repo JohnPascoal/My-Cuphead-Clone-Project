@@ -25,7 +25,7 @@ O foco principal desta implementação foi o desafio técnico de replicar a flui
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **Engine:** Unity 2022.3+ (ou a sua versão)
+* **Engine:** Unity 6
 * **Linguagem:** C#
 * **Assets:** Sprites obtidos via *The Spriters Resource* (Apenas para referência visual de estudo).
 
