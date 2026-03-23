@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 56d6ed9646a582245949ccc6eee63895
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7421197960207227405
+    second: world1_landbase_waterline_section1_0003_0
+  - first:
+      213: 1608223145156643512
+    second: world1_landbase_waterline_section1_0003_1
+  - first:
+      213: -5283194240011194465
+    second: world1_landbase_waterline_section1_0003_2
+  - first:
+      213: 2349202480260755554
+    second: world1_landbase_waterline_section1_0003_3
+  - first:
+      213: 8694907209838366271
+    second: world1_landbase_waterline_section1_0003_4
+  - first:
+      213: 3250346216259061492
+    second: world1_landbase_waterline_section1_0003_5
+  - first:
+      213: 4438416357541135640
+    second: world1_landbase_waterline_section1_0003_6
+  - first:
+      213: 2506774478928540203
+    second: world1_landbase_waterline_section1_0003_7
+  - first:
+      213: 6002132848100547522
+    second: world1_landbase_waterline_section1_0003_8
+  - first:
+      213: 654549642945288201
+    second: world1_landbase_waterline_section1_0003_9
+  - first:
+      213: 6034902125983119197
+    second: world1_landbase_waterline_section1_0003_10
+  - first:
+      213: -271141974922368230
+    second: world1_landbase_waterline_section1_0003_11
+  - first:
+      213: 4773619468287869211
+    second: world1_landbase_waterline_section1_0003_12
+  - first:
+      213: 3992835904554047621
+    second: world1_landbase_waterline_section1_0003_13
+  - first:
+      213: 5827753391331990272
+    second: world1_landbase_waterline_section1_0003_14
+  - first:
+      213: 5717212893170405338
+    second: world1_landbase_waterline_section1_0003_15
+  - first:
+      213: 6684342507328413179
+    second: world1_landbase_waterline_section1_0003_16
+  - first:
+      213: 4882834333326606431
+    second: world1_landbase_waterline_section1_0003_17
+  - first:
+      213: 2102372036864434870
+    second: world1_landbase_waterline_section1_0003_18
+  - first:
+      213: -5202398279113374518
+    second: world1_landbase_waterline_section1_0003_19
+  - first:
+      213: 604307191197671305
+    second: world1_landbase_waterline_section1_0003_20
+  - first:
+      213: -9067086436051653939
+    second: world1_landbase_waterline_section1_0003_21
+  - first:
+      213: -704393744440135751
+    second: world1_landbase_waterline_section1_0003_22
+  - first:
+      213: -3179581071109980651
+    second: world1_landbase_waterline_section1_0003_23
+  - first:
+      213: 6684754436212420672
+    second: world1_landbase_waterline_section1_0003_24
+  - first:
+      213: 3622520505542726553
+    second: world1_landbase_waterline_section1_0003_25
+  - first:
+      213: 6121754059235151681
+    second: world1_landbase_waterline_section1_0003_26
+  - first:
+      213: -8962429014990657477
+    second: world1_landbase_waterline_section1_0003_27
+  - first:
+      213: 3661493311681659916
+    second: world1_landbase_waterline_section1_0003_28
+  - first:
+      213: 62265771350555922
+    second: world1_landbase_waterline_section1_0003_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_0
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 872
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5aefd36cb920990800000000000000
+      internalID: -7421197960207227405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_1
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 854
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba8f960e6e815610800000000000000
+      internalID: 1608223145156643512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 819
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f2ebc84d25ea6b0800000000000000
+      internalID: -5283194240011194465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_3
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 782
+        width: 103
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260b86d853b0a9020800000000000000
+      internalID: 2349202480260755554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_4
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 817
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e066d2a048aa870800000000000000
+      internalID: 8694907209838366271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_5
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 759
+        width: 238
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f60821a9ac8b1d20800000000000000
+      internalID: 3250346216259061492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 656
+        width: 78
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815c584592c689d30800000000000000
+      internalID: 4438416357541135640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_7
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 436
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22fc8c6b1ad9c220800000000000000
+      internalID: 2506774478928540203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_8
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 370
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb9cb1560cdb4350800000000000000
+      internalID: 6002132848100547522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_9
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 387
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908dc9bae6d651900800000000000000
+      internalID: 654549642945288201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_10
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 307
+        width: 127
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d573971628740c350800000000000000
+      internalID: 6034902125983119197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_11
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 304
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bed057fc5bc3cf0800000000000000
+      internalID: -271141974922368230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_12
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 258
+        width: 69
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11003c5d9d4f3240800000000000000
+      internalID: 4773619468287869211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_13
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 290
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5889e59a917696730800000000000000
+      internalID: 3992835904554047621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_14
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 256
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00bdbe825d650e050800000000000000
+      internalID: 5827753391331990272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_15
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 212
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf84b2d5de975f40800000000000000
+      internalID: 5717212893170405338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_16
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 126
+        width: 391
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd9a52681e83cc50800000000000000
+      internalID: 6684342507328413179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_17
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 235
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50830fa4ff43c340800000000000000
+      internalID: 4882834333326606431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_18
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 227
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2e40b8a302d2d10800000000000000
+      internalID: 2102372036864434870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 179
+        width: 65
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac40851245e5dc7b0800000000000000
+      internalID: -5202398279113374518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_20
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 188
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f1d8a403ee26800800000000000000
+      internalID: 604307191197671305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_21
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 174
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcae0670dec3b2280800000000000000
+      internalID: -9067086436051653939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_22
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 182
+        width: 53
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf63a81f9d7936f0800000000000000
+      internalID: -704393744440135751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_23
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 148
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51efee9acdbdfd3d0800000000000000
+      internalID: -3179581071109980651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_24
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 110
+        width: 105
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040782d0eb405cc50800000000000000
+      internalID: 6684754436212420672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_25
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 146
+        width: 92
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9935174f437c54230800000000000000
+      internalID: 3622520505542726553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_26
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 124
+        width: 99
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f4407e1e6d4f450800000000000000
+      internalID: 6121754059235151681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_27
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 87
+        width: 127
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38e3dcbb4e0f9380800000000000000
+      internalID: -8962429014990657477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_28
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 2
+        width: 73
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04014e74cc30d230800000000000000
+      internalID: 3661493311681659916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_landbase_waterline_section1_0003_29
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 1
+        width: 197
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21df30f93663dd000800000000000000
+      internalID: 62265771350555922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      world1_landbase_waterline_section1_0003_0: -7421197960207227405
+      world1_landbase_waterline_section1_0003_1: 1608223145156643512
+      world1_landbase_waterline_section1_0003_10: 6034902125983119197
+      world1_landbase_waterline_section1_0003_11: -271141974922368230
+      world1_landbase_waterline_section1_0003_12: 4773619468287869211
+      world1_landbase_waterline_section1_0003_13: 3992835904554047621
+      world1_landbase_waterline_section1_0003_14: 5827753391331990272
+      world1_landbase_waterline_section1_0003_15: 5717212893170405338
+      world1_landbase_waterline_section1_0003_16: 6684342507328413179
+      world1_landbase_waterline_section1_0003_17: 4882834333326606431
+      world1_landbase_waterline_section1_0003_18: 2102372036864434870
+      world1_landbase_waterline_section1_0003_19: -5202398279113374518
+      world1_landbase_waterline_section1_0003_2: -5283194240011194465
+      world1_landbase_waterline_section1_0003_20: 604307191197671305
+      world1_landbase_waterline_section1_0003_21: -9067086436051653939
+      world1_landbase_waterline_section1_0003_22: -704393744440135751
+      world1_landbase_waterline_section1_0003_23: -3179581071109980651
+      world1_landbase_waterline_section1_0003_24: 6684754436212420672
+      world1_landbase_waterline_section1_0003_25: 3622520505542726553
+      world1_landbase_waterline_section1_0003_26: 6121754059235151681
+      world1_landbase_waterline_section1_0003_27: -8962429014990657477
+      world1_landbase_waterline_section1_0003_28: 3661493311681659916
+      world1_landbase_waterline_section1_0003_29: 62265771350555922
+      world1_landbase_waterline_section1_0003_3: 2349202480260755554
+      world1_landbase_waterline_section1_0003_4: 8694907209838366271
+      world1_landbase_waterline_section1_0003_5: 3250346216259061492
+      world1_landbase_waterline_section1_0003_6: 4438416357541135640
+      world1_landbase_waterline_section1_0003_7: 2506774478928540203
+      world1_landbase_waterline_section1_0003_8: 6002132848100547522
+      world1_landbase_waterline_section1_0003_9: 654549642945288201
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

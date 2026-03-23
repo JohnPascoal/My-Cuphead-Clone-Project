@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: 7f24c78fce7ffb24d971ec391f81081e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4531881068564598083
+    second: world1_water_ripples_section3a_0004_0
+  - first:
+      213: 4210444794656474279
+    second: world1_water_ripples_section3a_0004_1
+  - first:
+      213: 5662343208171378177
+    second: world1_water_ripples_section3a_0004_2
+  - first:
+      213: 3687200295167153618
+    second: world1_water_ripples_section3a_0004_3
+  - first:
+      213: -4111166691338054865
+    second: world1_water_ripples_section3a_0004_4
+  - first:
+      213: 6639452102677463903
+    second: world1_water_ripples_section3a_0004_5
+  - first:
+      213: -2812736187151813769
+    second: world1_water_ripples_section3a_0004_6
+  - first:
+      213: 4636475913484944145
+    second: world1_water_ripples_section3a_0004_7
+  - first:
+      213: -3109553213131720070
+    second: world1_water_ripples_section3a_0004_8
+  - first:
+      213: 7732816082073975254
+    second: world1_water_ripples_section3a_0004_9
+  - first:
+      213: 1690261895443424228
+    second: world1_water_ripples_section3a_0004_10
+  - first:
+      213: 5597164416592216378
+    second: world1_water_ripples_section3a_0004_11
+  - first:
+      213: 6896356516496666058
+    second: world1_water_ripples_section3a_0004_12
+  - first:
+      213: -8835838309849879908
+    second: world1_water_ripples_section3a_0004_13
+  - first:
+      213: 5774987521378965949
+    second: world1_water_ripples_section3a_0004_14
+  - first:
+      213: -7454977873744097146
+    second: world1_water_ripples_section3a_0004_15
+  - first:
+      213: -2681326102369404073
+    second: world1_water_ripples_section3a_0004_16
+  - first:
+      213: 5074995437970559653
+    second: world1_water_ripples_section3a_0004_17
+  - first:
+      213: -6341306348234932807
+    second: world1_water_ripples_section3a_0004_18
+  - first:
+      213: -8462791887998566481
+    second: world1_water_ripples_section3a_0004_19
+  - first:
+      213: -3967822679782548153
+    second: world1_water_ripples_section3a_0004_20
+  - first:
+      213: 2361998218192036254
+    second: world1_water_ripples_section3a_0004_21
+  - first:
+      213: 3026153723364113010
+    second: world1_water_ripples_section3a_0004_22
+  - first:
+      213: 1031565827332159556
+    second: world1_water_ripples_section3a_0004_23
+  - first:
+      213: 7325871855037458375
+    second: world1_water_ripples_section3a_0004_24
+  - first:
+      213: 8857574703105094705
+    second: world1_water_ripples_section3a_0004_25
+  - first:
+      213: -4593834346997321544
+    second: world1_water_ripples_section3a_0004_26
+  - first:
+      213: 6087287596538456656
+    second: world1_water_ripples_section3a_0004_27
+  - first:
+      213: -1552451490921882136
+    second: world1_water_ripples_section3a_0004_28
+  - first:
+      213: 6112007435543388374
+    second: world1_water_ripples_section3a_0004_29
+  - first:
+      213: 6299606693868493038
+    second: world1_water_ripples_section3a_0004_30
+  - first:
+      213: 3066566889229154806
+    second: world1_water_ripples_section3a_0004_31
+  - first:
+      213: 6192520634506116102
+    second: world1_water_ripples_section3a_0004_32
+  - first:
+      213: -5792004330844408083
+    second: world1_water_ripples_section3a_0004_33
+  - first:
+      213: -693190019807528310
+    second: world1_water_ripples_section3a_0004_34
+  - first:
+      213: -886470954606071438
+    second: world1_water_ripples_section3a_0004_35
+  - first:
+      213: 4307829460767549669
+    second: world1_water_ripples_section3a_0004_36
+  - first:
+      213: 3913252792595806977
+    second: world1_water_ripples_section3a_0004_37
+  - first:
+      213: -6950040706277621089
+    second: world1_water_ripples_section3a_0004_38
+  - first:
+      213: -2998378442926703030
+    second: world1_water_ripples_section3a_0004_39
+  - first:
+      213: -8264699832038012611
+    second: world1_water_ripples_section3a_0004_40
+  - first:
+      213: -137073984360424022
+    second: world1_water_ripples_section3a_0004_41
+  - first:
+      213: -8358494475323170933
+    second: world1_water_ripples_section3a_0004_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2b3e7dd268b11c0800000000000000
+      internalID: -4531881068564598083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 525
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a444eb9b318e6a30800000000000000
+      internalID: 4210444794656474279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 509
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106966fb52fa49e40800000000000000
+      internalID: 5662343208171378177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_3
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 494
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5572102219b2330800000000000000
+      internalID: 3687200295167153618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 484
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2390661da332f6c0800000000000000
+      internalID: -4111166691338054865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_5
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 455
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f538f439282142c50800000000000000
+      internalID: 6639452102677463903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_6
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 438
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773fded175727f8d0800000000000000
+      internalID: -2812736187151813769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_7
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 407
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113cce83742185040800000000000000
+      internalID: 4636475913484944145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_8
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 407
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7afb19e3d5a8d4d0800000000000000
+      internalID: -3109553213131720070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 412
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d97275a14b705b60800000000000000
+      internalID: 7732816082073975254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 399
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3a84f0d34057710800000000000000
+      internalID: 1690261895443424228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_11
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 392
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a318f60c16f1dad40800000000000000
+      internalID: 5597164416592216378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_12
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 383
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdeb3a96b7c4bf50800000000000000
+      internalID: 6896356516496666058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_13
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 373
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a2c981fdbc06580800000000000000
+      internalID: -8835838309849879908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_14
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 351
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db95b12bd80e42050800000000000000
+      internalID: 5774987521378965949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_15
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 348
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680161b3f199a8890800000000000000
+      internalID: -7454977873744097146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_16
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 340
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75bf94dbd140acad0800000000000000
+      internalID: -2681326102369404073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_17
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 299
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a296fc56710e6640800000000000000
+      internalID: 5074995437970559653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_18
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 296
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bdf68559772ff7a0800000000000000
+      internalID: -6341306348234932807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_19
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 290
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafb9cb9d9f1e8a80800000000000000
+      internalID: -8462791887998566481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_20
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 286
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d92df8b467fe8c0800000000000000
+      internalID: -3967822679782548153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_21
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 278
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9121737dd087c020800000000000000
+      internalID: 2361998218192036254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_22
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 271
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27af7d437ce0ff920800000000000000
+      internalID: 3026153723364113010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_23
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 273
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448b09c87abd05e00800000000000000
+      internalID: 1031565827332159556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_24
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 266
+        width: 53
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c72a8553a9baa560800000000000000
+      internalID: 7325871855037458375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_25
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 280
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134b016534d6cea70800000000000000
+      internalID: 8857574703105094705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_26
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 255
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b07c36200c6f30c0800000000000000
+      internalID: -4593834346997321544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_27
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 253
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ae05531d36a7450800000000000000
+      internalID: 6087287596538456656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_28
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 241
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed53902895947ae0800000000000000
+      internalID: -1552451490921882136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_29
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 99
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d02c1c316632d450800000000000000
+      internalID: 6112007435543388374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_30
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 99
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee854bc49e2bc6750800000000000000
+      internalID: 6299606693868493038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_31
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 67
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f97a70a652ae8a20800000000000000
+      internalID: 3066566889229154806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_32
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 79
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c730c25b040f550800000000000000
+      internalID: 6192520634506116102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_33
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 52
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6be7a9fbaae9fa0800000000000000
+      internalID: -5792004330844408083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_34
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 41
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ab683895b4166f0800000000000000
+      internalID: -693190019807528310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_35
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 26
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271f00f0d5f92b3f0800000000000000
+      internalID: -886470954606071438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_36
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 25
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8230a121c78cb30800000000000000
+      internalID: 4307829460767549669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_37
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 32
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b7afa7eaaae4630800000000000000
+      internalID: 3913252792595806977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_38
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 6
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9241dfecce7c8f90800000000000000
+      internalID: -6950040706277621089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_39
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 9
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e3a2731be9366d0800000000000000
+      internalID: -2998378442926703030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_40
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39c4208a43ed4d80800000000000000
+      internalID: -8264699832038012611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_41
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 6
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaddf3effe3091ef0800000000000000
+      internalID: -137073984360424022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_water_ripples_section3a_0004_42
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f1c455f89a00c80800000000000000
+      internalID: -8358494475323170933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      world1_water_ripples_section3a_0004_0: -4531881068564598083
+      world1_water_ripples_section3a_0004_1: 4210444794656474279
+      world1_water_ripples_section3a_0004_10: 1690261895443424228
+      world1_water_ripples_section3a_0004_11: 5597164416592216378
+      world1_water_ripples_section3a_0004_12: 6896356516496666058
+      world1_water_ripples_section3a_0004_13: -8835838309849879908
+      world1_water_ripples_section3a_0004_14: 5774987521378965949
+      world1_water_ripples_section3a_0004_15: -7454977873744097146
+      world1_water_ripples_section3a_0004_16: -2681326102369404073
+      world1_water_ripples_section3a_0004_17: 5074995437970559653
+      world1_water_ripples_section3a_0004_18: -6341306348234932807
+      world1_water_ripples_section3a_0004_19: -8462791887998566481
+      world1_water_ripples_section3a_0004_2: 5662343208171378177
+      world1_water_ripples_section3a_0004_20: -3967822679782548153
+      world1_water_ripples_section3a_0004_21: 2361998218192036254
+      world1_water_ripples_section3a_0004_22: 3026153723364113010
+      world1_water_ripples_section3a_0004_23: 1031565827332159556
+      world1_water_ripples_section3a_0004_24: 7325871855037458375
+      world1_water_ripples_section3a_0004_25: 8857574703105094705
+      world1_water_ripples_section3a_0004_26: -4593834346997321544
+      world1_water_ripples_section3a_0004_27: 6087287596538456656
+      world1_water_ripples_section3a_0004_28: -1552451490921882136
+      world1_water_ripples_section3a_0004_29: 6112007435543388374
+      world1_water_ripples_section3a_0004_3: 3687200295167153618
+      world1_water_ripples_section3a_0004_30: 6299606693868493038
+      world1_water_ripples_section3a_0004_31: 3066566889229154806
+      world1_water_ripples_section3a_0004_32: 6192520634506116102
+      world1_water_ripples_section3a_0004_33: -5792004330844408083
+      world1_water_ripples_section3a_0004_34: -693190019807528310
+      world1_water_ripples_section3a_0004_35: -886470954606071438
+      world1_water_ripples_section3a_0004_36: 4307829460767549669
+      world1_water_ripples_section3a_0004_37: 3913252792595806977
+      world1_water_ripples_section3a_0004_38: -6950040706277621089
+      world1_water_ripples_section3a_0004_39: -2998378442926703030
+      world1_water_ripples_section3a_0004_4: -4111166691338054865
+      world1_water_ripples_section3a_0004_40: -8264699832038012611
+      world1_water_ripples_section3a_0004_41: -137073984360424022
+      world1_water_ripples_section3a_0004_42: -8358494475323170933
+      world1_water_ripples_section3a_0004_5: 6639452102677463903
+      world1_water_ripples_section3a_0004_6: -2812736187151813769
+      world1_water_ripples_section3a_0004_7: 4636475913484944145
+      world1_water_ripples_section3a_0004_8: -3109553213131720070
+      world1_water_ripples_section3a_0004_9: 7732816082073975254
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
