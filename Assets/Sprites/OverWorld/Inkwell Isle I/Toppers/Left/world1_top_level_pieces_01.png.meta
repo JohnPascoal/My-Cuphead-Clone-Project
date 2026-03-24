@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 72
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -136,12 +136,12 @@ TextureImporter:
       name: world1_top_level_pieces_01_0
       rect:
         serializedVersion: 2
-        x: 1091
-        y: 1084
-        width: 355
-        height: 215
+        x: 589
+        y: 823
+        width: 372
+        height: 449
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -158,12 +158,12 @@ TextureImporter:
       name: world1_top_level_pieces_01_1
       rect:
         serializedVersion: 2
-        x: 1535
-        y: 1235
-        width: 47
-        height: 68
+        x: 1092
+        y: 1085
+        width: 353
+        height: 213
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,12 +180,12 @@ TextureImporter:
       name: world1_top_level_pieces_01_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 388
-        width: 535
-        height: 606
+        x: 1536
+        y: 1236
+        width: 46
+        height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -202,12 +202,12 @@ TextureImporter:
       name: world1_top_level_pieces_01_3
       rect:
         serializedVersion: 2
-        x: 356
-        y: 596
-        width: 374
-        height: 451
+        x: 0
+        y: 389
+        width: 534
+        height: 604
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -221,37 +221,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: world1_top_level_pieces_01_4
-      rect:
-        serializedVersion: 2
-        x: 1162
-        y: 761
-        width: 300
-        height: 283
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 75c957f83da043270800000000000000
-      internalID: 8229214322873965655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: world1_top_level_pieces_01_5
       rect:
         serializedVersion: 2
-        x: 1175
-        y: 450
-        width: 202
-        height: 142
+        x: 664
+        y: 814
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -268,12 +246,12 @@ TextureImporter:
       name: world1_top_level_pieces_01_6
       rect:
         serializedVersion: 2
-        x: 1388
-        y: 463
-        width: 10
-        height: 21
+        x: 1163
+        y: 762
+        width: 298
+        height: 281
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -290,12 +268,12 @@ TextureImporter:
       name: world1_top_level_pieces_01_7
       rect:
         serializedVersion: 2
-        x: 1346
-        y: 424
-        width: 9
-        height: 6
+        x: 1176
+        y: 451
+        width: 200
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -312,12 +290,12 @@ TextureImporter:
       name: world1_top_level_pieces_01_8
       rect:
         serializedVersion: 2
-        x: 1069
-        y: 36
-        width: 280
-        height: 349
+        x: 1389
+        y: 464
+        width: 8
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -334,12 +312,12 @@ TextureImporter:
       name: world1_top_level_pieces_01_9
       rect:
         serializedVersion: 2
-        x: 1487
-        y: 238
-        width: 95
-        height: 151
+        x: 1347
+        y: 425
+        width: 7
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -356,12 +334,12 @@ TextureImporter:
       name: world1_top_level_pieces_01_10
       rect:
         serializedVersion: 2
-        x: 1441
+        x: 1070
         y: 37
-        width: 8
-        height: 8
+        width: 278
+        height: 347
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -378,12 +356,12 @@ TextureImporter:
       name: world1_top_level_pieces_01_11
       rect:
         serializedVersion: 2
-        x: 1446
-        y: 1
-        width: 136
-        height: 139
+        x: 1488
+        y: 239
+        width: 94
+        height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -396,11 +374,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: world1_top_level_pieces_01_12
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 38
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28943ba221d4fc468a5395c012ef36b
+      internalID: -1642357261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world1_top_level_pieces_01_13
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 2
+        width: 135
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3474959810f0ca24b84616f5c37e07fe
+      internalID: -1821775523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5c50677c1a0767e4f91316a61664a44c
     internalID: 0
     vertices: []
     indices: 
@@ -408,12 +430,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       world1_top_level_pieces_01_0: -1332010564788284967
       world1_top_level_pieces_01_1: 4838927109027981204
       world1_top_level_pieces_01_10: 3569885600191893287
       world1_top_level_pieces_01_11: 4207564236636461621
+      world1_top_level_pieces_01_12: -1642357261
+      world1_top_level_pieces_01_13: -1821775523
       world1_top_level_pieces_01_2: -7201046557907571509
       world1_top_level_pieces_01_3: 8850943205314170919
       world1_top_level_pieces_01_4: 8229214322873965655

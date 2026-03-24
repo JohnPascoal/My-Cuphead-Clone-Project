@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d5c10ce8477c72d43af8bd89cf85a6cc
+guid: f15b2145d65ffc2449229475f58479b9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 551928539696296817
-    second: world1_lighthouse_0
+      213: -6078514226692713469
+    second: Home Sweet Home_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 83
+  spritePixelsToUnits: 72
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,23 +100,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: world1_lighthouse_0
+      name: Home Sweet Home_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 392
-        height: 448
+        x: 3
+        y: 20
+        width: 272
+        height: 351
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1737ff52518d8a700800000000000000
-      internalID: 551928539696296817
+      spriteID: 30492d32487c4aba0800000000000000
+      internalID: -6078514226692713469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Home Sweet Home_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 20
+        width: 272
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ad4ad57c6fe294ca4c135d07cd1aa9
+      internalID: 2020274888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Home Sweet Home_2
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 20
+        width: 272
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7711dae79a2b34e81b2cca1ade19f6
+      internalID: -997471347
       vertices: []
       indices: 
       edges: []
@@ -125,7 +169,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2a18c71887720b546baf827e658ac84d
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +179,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      world1_lighthouse_0: 551928539696296817
+      Home Sweet Home_0: -6078514226692713469
+      Home Sweet Home_1: 2020274888
+      Home Sweet Home_2: -997471347
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
