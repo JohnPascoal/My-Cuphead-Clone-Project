@@ -1,36 +1,36 @@
 # Cuphead Unity Study Project ☕️
 
-Este repositório contém um projeto de estudo desenvolvido na **Unity Engine**, com o objetivo de recriar e analisar as mecânicas de gameplay, sistemas de colisão e estados de IA do jogo original *Cuphead*.
+This repository contains a study project developed in the **Unity Engine**, with the goal of recreating and analyzing the gameplay mechanics, collision systems, and AI states of the original *Cuphead* game.
 
 ---
 
-## ⚠️ Disclaimer / Aviso Legal (Importante)
+## ⚠️ Disclaimer / Legal Notice (Important)
 
-Este projeto é **exclusivamente para fins educacionais, não comerciais e de portfólio**. 
+This project is **exclusively for educational, non-commercial, and portfolio purposes**.
 
-* **Propriedade Intelectual:** Todos os direitos de marca, nome, personagens, arte visual e trilha sonora pertencem à **Studio MDHR**. Este projeto não é oficial e não possui qualquer afiliação com a desenvolvedora.
-* **Finalidade:** Este código foi escrito como um exercício técnico de programação e design de jogos. Não há intenção de violar direitos autorais.
-* **Distribuição:** Este repositório não fornece o jogo completo e não deve ser utilizado para fins lucrativos ou pirataria.
-* **Licença:** A licença MIT aplica-se estritamente aos arquivos .cs. Os arquivos de imagem e som contidos na pasta /Assets/Sprites são propriedade da Studio MDHR e estão aqui apenas para fins de demonstração técnica.
+* **Intellectual Property:** All trademark rights, name, characters, visual art, and soundtrack belong to **Studio MDHR**. This project is not official and has no affiliation with the developer.
+* **Purpose:** This code was written as a technical exercise in programming and game design. There is no intention to infringe any copyrights.
+* **Distribution:** This repository does not provide the full game and must not be used for profit or piracy.
+* **License:** The MIT license applies strictly to .cs files. The image and sound files contained in the /Assets/Sprites folder are the property of Studio MDHR and are included here solely for technical demonstration purposes.
 
 ---
 
-## 🎯 Objetivos do Estudo
+## 🎯 Study Goals
 
-O foco principal desta implementação foi o desafio técnico de replicar a fluidez do jogo original, focando em:
-* **State Machines (FSM):** Gerenciamento de estados do jogador (Idle, Run, Jump, Dash, Parry).
-* **Boss AI:** Implementação de padrões de ataque cíclicos e transições de fase.
-* **Frame-by-Frame Animation:** Sincronização de animações 2D complexas com a lógica de colisão (Hitboxes).
-* **Parallax Effect:** Recriação da profundidade visual clássica dos desenhos dos anos 30.
+The main focus of this implementation was the technical challenge of replicating the fluidity of the original game, focusing on:
+* **State Machines (FSM):**  Managing player states (Idle, Run, Jump, Dash, Parry).
+* **Boss AI:** Implementation of cyclic attack patterns and phase transitions.
+* **Frame-by-Frame Animation:** Synchronizing complex 2D animations with collision logic (Hitboxes).
+* **Parallax Effect:** Recreating the classic visual depth of 1930s cartoons.
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ TTechnologies Used
 
 * **Engine:** Unity 6
-* **Linguagem:** C#
-* **Assets:** Sprites obtidos via *The Spriters Resource* (Apenas para referência visual de estudo).
+* **Language:** C#
+* **Assets:** Sprites obtained via *The Spriters Resource* (For visual study reference only).
 
 ## 🚀 Como Executar (Para Desenvolvedores)
 
-1. Clone o repositório:
+1. Clone the repository:
    ```bash
-   git clone [https://github.com/)
+   git clone [https://github.com/JohnPascoal/My-Cuphead-Clone-Project.git]
