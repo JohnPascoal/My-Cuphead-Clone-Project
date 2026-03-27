@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0462a171a20b5c34f9066557a9eff0fd
+guid: ec9487609fa2f1646ad86fd8266eaacb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7334343343004780139
-    second: world1_bride_main_front_top_0
+      213: -1189819786321183674
+    second: w1_npc_apple_traveller_idle_0001_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: world1_bride_main_front_top_0
+      name: w1_npc_apple_traveller_idle_0001_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2
         y: 0
-        width: 380
-        height: 65
+        width: 61
+        height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 599f27ba69d273a90800000000000000
-      internalID: -7334343343004780139
+      spriteID: 64c38915539ec7fe0800000000000000
+      internalID: -1189819786321183674
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a6681e1806bc2be4791eed8784e077fd
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +133,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      world1_bride_main_front_top_0: -7334343343004780139
+      w1_npc_apple_traveller_idle_0001_0: -1189819786321183674
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0462a171a20b5c34f9066557a9eff0fd
+guid: 3de8d51f34d0ffe4f8fb2a101fa3752d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7334343343004780139
-    second: world1_bride_main_front_top_0
+      213: -8655984497046956928
+    second: w1_npc_apple_traveller_blink_0001_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 72
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: world1_bride_main_front_top_0
+      name: w1_npc_apple_traveller_blink_0001_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 380
-        height: 65
+        width: 61
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 599f27ba69d273a90800000000000000
-      internalID: -7334343343004780139
+      spriteID: 0845a3816f3cfd780800000000000000
+      internalID: -8655984497046956928
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      world1_bride_main_front_top_0: -7334343343004780139
+      w1_npc_apple_traveller_blink_0001_0: -8655984497046956928
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
