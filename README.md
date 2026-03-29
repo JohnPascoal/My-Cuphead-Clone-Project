@@ -23,14 +23,39 @@ The main focus of this implementation was the technical challenge of replicating
 * **Frame-by-Frame Animation:** Synchronizing complex 2D animations with collision logic (Hitboxes).
 * **Parallax Effect:** Recreating the classic visual depth of 1930s cartoons.
 
-## 🛠️ TTechnologies Used
+## 🚀 Getting Started
 
-* **Engine:** Unity 6
-* **Language:** C#
-* **Assets:** Sprites obtained via *The Spriters Resource* (For visual study reference only).
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-## 🚀 Como Executar (Para Desenvolvedores)
+### Prerequisites
 
-1. Clone the repository:
+Before cloning the project, ensure you have the following installed:
+
+* **Unity Hub:** [Download here](https://unity.com/download)
+* **Unity Engine:** Version **6** (or the specific version used in this project).
+* **Git LFS:** Highly recommended for handling large 2D assets and audio files.
+
+### Installation & Setup
+
+1. **Clone the repository**
+   Open your terminal and run the following command:
    ```bash
-   git clone [https://github.com/JohnPascoal/My-Cuphead-Clone-Project.git]
+   git clone [https://github.com/your-username/cuphead-clone.git](https://github.com/your-username/cuphead-clone.git)
+
+2. **Add the project to Unity Hub**
+
+   * Open Unity Hub.
+
+   * Click on the Add button (or Open > Add project from disk).
+
+   * Navigate to the folder where you cloned the repository and select it.
+
+3. **Open and Import**
+
+   * Click on the project name within Unity Hub to launch it.
+
+   * Note: The first launch may take several minutes. Unity will automatically reconstruct the Library folder and re-import all assets (Sprites, Audio, and Scripts) to match your local environment.
+
+4. **Select the Initial Scene**
+
+   * Once the editor is open, go to Assets > Scenes.
