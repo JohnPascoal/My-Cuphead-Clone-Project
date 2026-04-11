@@ -32,7 +32,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 Before cloning the project, ensure you have the following installed:
 
 * **Unity Hub:** [Download here](https://unity.com/download)
-* **Unity Engine:** Version **6** (or the specific version used in this project).
+* **Unity Engine:** Version **6**
 * **Git LFS:** Highly recommended for handling large 2D assets and audio files.
 
 ### Installation & Setup
