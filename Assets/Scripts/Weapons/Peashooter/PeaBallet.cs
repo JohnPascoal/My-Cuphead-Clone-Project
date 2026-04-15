@@ -7,8 +7,8 @@ public class PeaBallet : MonoBehaviour
 
     void Start()
     {
-        var rb = GetComponent<Rigidbody>();
-        rb.AddForce(transform.right * speed, ForceMode.Impulse);
+        var rb = GetComponent<Rigidbody2D>();
+        rb.AddForce(transform.right * speed, ForceMode2D.Impulse);
     }
 
     // Update is called once per frame
