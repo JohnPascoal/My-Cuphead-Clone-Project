@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: b2a8e381f585ea34290f1ab191720a0a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -977348709628466701
+    second: cuphead_jump_dust_b_0009_0
+  - first:
+      213: -841502929322024630
+    second: cuphead_jump_dust_b_0009_1
+  - first:
+      213: 3967003905172847807
+    second: cuphead_jump_dust_b_0009_2
+  - first:
+      213: -4760888991747597896
+    second: cuphead_jump_dust_b_0009_3
+  - first:
+      213: -879996171245887268
+    second: cuphead_jump_dust_b_0009_4
+  - first:
+      213: -1749811720763642425
+    second: cuphead_jump_dust_b_0009_5
+  - first:
+      213: 3385159085262416190
+    second: cuphead_jump_dust_b_0009_6
+  - first:
+      213: 8118332240590928455
+    second: cuphead_jump_dust_b_0009_7
+  - first:
+      213: -3292691316000160024
+    second: cuphead_jump_dust_b_0009_8
+  - first:
+      213: -700867279287042645
+    second: cuphead_jump_dust_b_0009_9
+  - first:
+      213: -4999007443533532933
+    second: cuphead_jump_dust_b_0009_10
+  - first:
+      213: -5846037254699325185
+    second: cuphead_jump_dust_b_0009_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cuphead_jump_dust_b_0009_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9a8ecd682cf62f0800000000000000
+      internalID: -977348709628466701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_jump_dust_b_0009_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 133
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a416f445b816254f0800000000000000
+      internalID: -841502929322024630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_jump_dust_b_0009_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 87
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc3a6e9801ad0730800000000000000
+      internalID: 3967003905172847807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_jump_dust_b_0009_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 53
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b911dfafacededb0800000000000000
+      internalID: -4760888991747597896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_jump_dust_b_0009_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 37
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd06f290520a9c3f0800000000000000
+      internalID: -879996171245887268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_jump_dust_b_0009_5
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 49
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd6118c28b67b7e0800000000000000
+      internalID: -1749811720763642425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_jump_dust_b_0009_6
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 45
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39a041b0408afe20800000000000000
+      internalID: 3385159085262416190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_jump_dust_b_0009_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 13
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74af509f82c1aa070800000000000000
+      internalID: 8118332240590928455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_jump_dust_b_0009_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 13
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e60cca81b20e42d0800000000000000
+      internalID: -3292691316000160024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_jump_dust_b_0009_9
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 3
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: badb66f3ce40646f0800000000000000
+      internalID: -700867279287042645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_jump_dust_b_0009_10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 9
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf076aa4735ff9ab0800000000000000
+      internalID: -4999007443533532933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_jump_dust_b_0009_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff862f92714bedea0800000000000000
+      internalID: -5846037254699325185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cuphead_jump_dust_b_0009_0: -977348709628466701
+      cuphead_jump_dust_b_0009_1: -841502929322024630
+      cuphead_jump_dust_b_0009_10: -4999007443533532933
+      cuphead_jump_dust_b_0009_11: -5846037254699325185
+      cuphead_jump_dust_b_0009_2: 3967003905172847807
+      cuphead_jump_dust_b_0009_3: -4760888991747597896
+      cuphead_jump_dust_b_0009_4: -879996171245887268
+      cuphead_jump_dust_b_0009_5: -1749811720763642425
+      cuphead_jump_dust_b_0009_6: 3385159085262416190
+      cuphead_jump_dust_b_0009_7: 8118332240590928455
+      cuphead_jump_dust_b_0009_8: -3292691316000160024
+      cuphead_jump_dust_b_0009_9: -700867279287042645
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
