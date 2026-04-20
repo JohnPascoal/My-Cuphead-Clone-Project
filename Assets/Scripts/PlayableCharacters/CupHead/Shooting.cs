@@ -14,11 +14,11 @@ public class Shoot : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             Instantiate(peaBalletPrefab, firePoint.position, firePoint.rotation);
         }
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.X))
         {
             shooterCounter -= Time.deltaTime;
             if (shooterCounter <= 0)
