@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class CupheadMovement : MonoBehaviour
 {
@@ -11,12 +12,14 @@ public class CupheadMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
     private Collider2D coll;
+    private Animator anim;
     private float jumpVelocity = 0f;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<Collider2D>();
+        anim = GetComponent<Animator>();
     }
 
     private void FixedUpdate()
@@ -42,6 +45,14 @@ public class CupheadMovement : MonoBehaviour
         CheckGrounded();
         FlipSprite();
         Jumping();
+        UpdateAnimations();
+    }
+
+    void UpdateAnimations()
+    {
+        bool isRunning = Mathf.Abs(movement.x) > 0f;
+        anim.SetBool("isRunning", isRunning);
+        anim.SetBool("isJumping", !isGrounded);
     }
 
     void FlipSprite()
@@ -54,10 +65,10 @@ public class CupheadMovement : MonoBehaviour
 
     void Jumping()
     {
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetKeyDown(KeyCode.Z) && isGrounded)
         {
             jumpVelocity = jumpForce;
-            Debug.Log($"Jump applied! Force: {jumpForce}");
+            //Debug.Log($"Jump applied! Force: {jumpForce}");
         }
     }
 
