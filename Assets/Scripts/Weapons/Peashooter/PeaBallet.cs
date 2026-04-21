@@ -11,9 +11,12 @@ public class PeaBallet : MonoBehaviour
         rb.AddForce(transform.right * speed, ForceMode2D.Impulse);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        // Verifica se colidiu com a layer "Border"
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Border"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

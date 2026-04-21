@@ -14,6 +14,7 @@ public class CupheadMovement : MonoBehaviour
     private Collider2D coll;
     private Animator anim;
     private float jumpVelocity = 0f;
+    private bool isAimLocked;
 
     void Start()
     {
@@ -24,8 +25,10 @@ public class CupheadMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        float currentSpeed = (isAimLocked && isGrounded) ? 0f : moveSpeed;
+
         // Apply movement horizontally and maintain current vertical velocity (gravity)
-        Vector2 newVelocity = new Vector2(movement.x * moveSpeed, rb.linearVelocity.y);
+        Vector2 newVelocity = new Vector2(movement.x * currentSpeed, rb.linearVelocity.y);
         
         // Apply jump velocity if it was triggered
         if (jumpVelocity > 0)
@@ -39,8 +42,11 @@ public class CupheadMovement : MonoBehaviour
     
     void Update()
     {
+        isAimLocked = Input.GetKey(KeyCode.C);
+
         // Get input from the player
         movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
         
         CheckGrounded();
         FlipSprite();
@@ -50,7 +56,7 @@ public class CupheadMovement : MonoBehaviour
 
     void UpdateAnimations()
     {
-        bool isRunning = Mathf.Abs(movement.x) > 0f;
+        bool isRunning = Mathf.Abs(movement.x) > 0f && !(isAimLocked && isGrounded);
         anim.SetBool("isRunning", isRunning);
         anim.SetBool("isJumping", !isGrounded);
     }
@@ -65,7 +71,7 @@ public class CupheadMovement : MonoBehaviour
 
     void Jumping()
     {
-        if (Input.GetKeyDown(KeyCode.Z) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.Z) && isGrounded && !isAimLocked)
         {
             jumpVelocity = jumpForce;
             //Debug.Log($"Jump applied! Force: {jumpForce}");

@@ -11,11 +11,7 @@ public class Shoot : MonoBehaviour
     
     void Start()
     {
-        /*if (anim == null)
-            anim = GetComponent<Animator>();
-        
-        if (anim == null)*/
-            anim = GetComponentInParent<Animator>();
+        anim = GetComponentInParent<Animator>();
     }
     
     void Update()
@@ -28,15 +24,15 @@ public class Shoot : MonoBehaviour
         {
             anim.SetBool("isShooting", isShooting);
             
-            // Lógica para enviar os valores corretos para o Blend Tree
-            float aimX = Mathf.Abs(inputX);
-            float aimY = inputY;
+            // Garantir que os valores sejam 0, 1 ou -1 baseados nos inputs
+            float aimX = Mathf.Abs(inputX) > 0.1f ? 1f : 0f;
+            float aimY = inputY > 0.1f ? 1f : (inputY < -0.1f ? -1f : 0f);
 
-            // Se o jogador estiver apenas atirando parado (sem pressionar as setas), 
-            // forçamos o AimX a ser 1 para ele tocar a animação "CupheadStraightShoot" (X=1, Y=0).
-            if (aimX == 0 && aimY == 0)
+            // Se não houver direção no analógico/setas, forçar atirar em frente!
+            if (aimX == 0f && aimY == 0f)
             {
                 aimX = 1f;
+                aimY = 0f;
             }
 
             anim.SetFloat("AimX", aimX); 
