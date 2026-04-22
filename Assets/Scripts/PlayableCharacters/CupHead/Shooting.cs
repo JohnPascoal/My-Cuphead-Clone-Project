@@ -50,6 +50,10 @@ public class Shoot : MonoBehaviour
 
             anim.SetFloat("AimX", aimX);
             anim.SetFloat("AimY", aimY);
+
+            // Força o Animator a atualizar os transforms imediatamente neste frame.
+            // Isso garante que o firePoint esteja na posição correta da animação antes do primeiro tiro despachar.
+            anim.Update(0f);
         }
 
         if (Input.GetKeyDown(shootKey))
