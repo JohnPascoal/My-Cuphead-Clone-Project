@@ -88,7 +88,7 @@ public class CupheadMovement : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.down, groundCheckDistance, groundLayer);
         isGrounded = hit.collider != null;
         
-        // Debug visualization (optional, remove for production)
+        // Debug visualization
         Debug.DrawRay(rayOrigin, Vector2.down * groundCheckDistance, isGrounded ? Color.green : Color.red);
     }
 }

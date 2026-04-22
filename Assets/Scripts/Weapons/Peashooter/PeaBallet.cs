@@ -2,13 +2,17 @@ using UnityEngine;
 
 public class PeaBallet : MonoBehaviour
 {
-    [SerializeField]
-    private float speed = 10f;
+    [SerializeField] private float speed = 10f;
 
     void Start()
     {
-        var rb = GetComponent<Rigidbody2D>();
-        rb.AddForce(transform.right * speed, ForceMode2D.Impulse);
+    }
+
+    void Update()
+    {
+        // Movimentação constante e independente.
+        // Como o projétil já nasce com a rotação certa no Shooting.cs, andar pra "frente" (right) sempre vai na direção certa.
+        transform.Translate(Vector2.right * speed * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
