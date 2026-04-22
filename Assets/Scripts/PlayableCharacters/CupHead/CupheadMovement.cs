@@ -42,11 +42,11 @@ public class CupheadMovement : MonoBehaviour
     
     void Update()
     {
-        isAimLocked = Input.GetKey(KeyCode.C);
+        isAimLocked = Input.GetKey(KeyCode.T);
 
         // Get input from the player
         movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        //movement.y = Input.GetAxisRaw("Vertical");
         
         CheckGrounded();
         FlipSprite();
@@ -63,6 +63,7 @@ public class CupheadMovement : MonoBehaviour
 
     void FlipSprite()
     {
+        //if (isAimLocked) return;
         if (movement.x > 0)
             transform.localScale = new Vector3(1, 1, 1);
         else if (movement.x < 0)

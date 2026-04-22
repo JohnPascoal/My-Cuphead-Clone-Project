@@ -194,8 +194,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e58664391295454eb5bb2b94a8fcab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CupheadMovement
-  moveSpeed: 14
-  jumpForce: 5
+  moveSpeed: 8
+  jumpForce: 14
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -276,6 +276,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c426a3cde5b753c4b930b77bc3a11c67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shoot
+  shootKey: 114
   peaBalletPrefab: {fileID: 3256516082269049102, guid: 4b64d5d17cf9b2442bcdff40ad82a1c1, type: 3}
   firePoint: {fileID: 3219608485098249738}
   timeBetweenShoots: 0.2
+  anim: {fileID: 7488430209870141336}

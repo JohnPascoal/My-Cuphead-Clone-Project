@@ -40,7 +40,7 @@ Before cloning the project, ensure you have the following installed:
 1. **Clone the repository**
    Open your terminal and run the following command:
    ```bash
-   git clone [https://github.com/your-username/cuphead-clone.git](https://github.com/your-username/cuphead-clone.git)
+   git clone https://github.com/JohnPascoal/My-Cuphead-Clone-Project.git
 
 2. **Add the project to Unity Hub**
 

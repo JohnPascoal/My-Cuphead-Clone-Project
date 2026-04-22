@@ -2113,14 +2113,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cuphead
       objectReference: {fileID: 0}
-    - target: {fileID: 3454155601656879960, guid: ef3eb39f5b13a68438c762cb7e413904, type: 3}
-      propertyPath: jumpForce
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 3454155601656879960, guid: ef3eb39f5b13a68438c762cb7e413904, type: 3}
-      propertyPath: moveSpeed
-      value: 8
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
