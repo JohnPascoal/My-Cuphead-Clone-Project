@@ -59,6 +59,7 @@ public class CupheadMovement : MonoBehaviour
         bool isRunning = Mathf.Abs(movement.x) > 0f && !(isAimLocked && isGrounded);
         anim.SetBool("isRunning", isRunning);
         anim.SetBool("isJumping", !isGrounded);
+        anim.SetBool("isAimLocked", isAimLocked);
     }
 
     void FlipSprite()

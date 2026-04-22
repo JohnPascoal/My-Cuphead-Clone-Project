@@ -192,4 +192,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eacbe1dbc20b9724eba6d27a10addb93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PeaBallet
-  speed: 10
+  speed: 20
