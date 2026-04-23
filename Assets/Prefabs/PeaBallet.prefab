@@ -193,3 +193,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PeaBallet
   speed: 20
+  balletDeath: {fileID: 3671327434172288860, guid: 945c160ba012c8d4ba4bbfcb524e60d0, type: 3}

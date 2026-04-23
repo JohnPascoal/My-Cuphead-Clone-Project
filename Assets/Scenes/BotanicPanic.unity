@@ -2129,7 +2129,7 @@ PrefabInstance:
     - target: {fileID: 2824046937242999472, guid: ef3eb39f5b13a68438c762cb7e413904, type: 3}
       propertyPath: balletSpawnPrefab
       value: 
-      objectReference: {fileID: 4098448757883375207, guid: de1cd052fc1689b4da0a6ffbbe1bce90, type: 3}
+      objectReference: {fileID: 6792060069929518814, guid: de1cd052fc1689b4da0a6ffbbe1bce90, type: 3}
     - target: {fileID: 3297866336767581538, guid: ef3eb39f5b13a68438c762cb7e413904, type: 3}
       propertyPath: m_Name
       value: Cuphead

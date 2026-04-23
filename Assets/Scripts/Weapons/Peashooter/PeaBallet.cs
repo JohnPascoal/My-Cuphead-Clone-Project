@@ -3,6 +3,7 @@ using UnityEngine;
 public class PeaBallet : MonoBehaviour
 {
     [SerializeField] private float speed = 10f;
+    [SerializeField] private GameObject balletDeath;
 
     void Start()
     {
@@ -20,6 +21,7 @@ public class PeaBallet : MonoBehaviour
         // Verifica se colidiu com a layer "Border"
         if (collision.gameObject.layer == LayerMask.NameToLayer("Border"))
         {
+            Instantiate(balletDeath, transform.position, transform.rotation);
             Destroy(gameObject);
         }
     }

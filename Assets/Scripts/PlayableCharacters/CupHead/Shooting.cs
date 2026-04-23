@@ -5,7 +5,7 @@ public class Shoot : MonoBehaviour
 {
     [SerializeField] private KeyCode shootKey = KeyCode.R;
     [SerializeField] private PeaBallet peaBalletPrefab;
-    [SerializeField] private BalletSpawn balletSpawnPrefab;
+    [SerializeField] private GameObject balletSpawnPrefab;
     [SerializeField] private Transform firePoint;
     [SerializeField] private Transform spawnPoint;
     [SerializeField] private float timeBetweenShoots = 0.5f;
