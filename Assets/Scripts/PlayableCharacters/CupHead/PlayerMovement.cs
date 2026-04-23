@@ -4,6 +4,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float jumpForce = 5f;
+    private PlayerState currentState;
     private CollisionDetector collisions;
     private Rigidbody2D rb;
     private Animator anim;
@@ -34,11 +35,60 @@ public class PlayerMovement : MonoBehaviour
     
     void Update()
     {
+        DetermineState();
+        switch (currentState)
+        {
+            case PlayerState.Idle:
+                HandleIdle();
+                break;
+            case PlayerState.Running:
+                HandleRunning();
+                break;
+            case PlayerState.Jumping:
+                HandleJumpingState();
+                break;
+            case PlayerState.Aiming:
+                HandleAiming();
+                break;
+        }
+    }
+
+    void HandleIdle()
+    {
+        HandleJumping();
+        UpdateAnimations();
+    }
+
+    void HandleRunning()
+    {
         FlipSprite();
         HandleJumping();
         UpdateAnimations();
     }
 
+    void HandleJumpingState()
+    {
+        FlipSprite();
+        UpdateAnimations();
+    }
+
+    void HandleAiming()
+    {
+        FlipSprite();
+        UpdateAnimations();
+    }
+
+    void DetermineState()
+    {
+        if (playerInput.AimLocked && collisions.IsGrounded)
+            currentState = PlayerState.Aiming;
+        else if (!collisions.IsGrounded)
+            currentState = PlayerState.Jumping;
+        else if (Mathf.Abs(playerInput.Horizontal) > 0f)
+            currentState = PlayerState.Running;
+        else
+            currentState = PlayerState.Idle;
+    }
     void HandleJumping()
     {
         if (playerInput.JumpPressed && collisions.IsGrounded && !playerInput.AimLocked)
