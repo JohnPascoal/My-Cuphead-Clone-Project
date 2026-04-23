@@ -288,11 +288,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.216507, y: 13.449115}
   m_EdgeRadius: 0
---- !u!4 &493835682 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 137993015300781680, guid: ef3eb39f5b13a68438c762cb7e413904, type: 3}
-  m_PrefabInstance: {fileID: 4983183615074713352}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &579129112
 GameObject:
   m_ObjectHideFlags: 0
@@ -2124,17 +2119,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 137993015300781680, guid: ef3eb39f5b13a68438c762cb7e413904, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.926
-      objectReference: {fileID: 0}
-    - target: {fileID: 137993015300781680, guid: ef3eb39f5b13a68438c762cb7e413904, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.284
-      objectReference: {fileID: 0}
     - target: {fileID: 2631415622952368758, guid: ef3eb39f5b13a68438c762cb7e413904, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.9715821
+      value: -4.93
       objectReference: {fileID: 0}
     - target: {fileID: 2631415622952368758, guid: ef3eb39f5b13a68438c762cb7e413904, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2172,14 +2159,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2824046937242999472, guid: ef3eb39f5b13a68438c762cb7e413904, type: 3}
-      propertyPath: spawnPoint
-      value: 
-      objectReference: {fileID: 493835682}
-    - target: {fileID: 2824046937242999472, guid: ef3eb39f5b13a68438c762cb7e413904, type: 3}
-      propertyPath: balletSpawnPrefab
-      value: 
-      objectReference: {fileID: 6792060069929518814, guid: de1cd052fc1689b4da0a6ffbbe1bce90, type: 3}
     - target: {fileID: 3297866336767581538, guid: ef3eb39f5b13a68438c762cb7e413904, type: 3}
       propertyPath: m_Name
       value: Cuphead

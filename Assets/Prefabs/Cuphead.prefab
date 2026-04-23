@@ -10,10 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2631415622952368758}
   - component: {fileID: 4164124018145608173}
+  - component: {fileID: 821813370471146483}
+  - component: {fileID: 327644836417361924}
+  - component: {fileID: 1234838294193011150}
   - component: {fileID: 7488430209870141336}
   - component: {fileID: 7491202898302532830}
   - component: {fileID: 5175523152185403998}
-  - component: {fileID: 3454155601656879960}
   m_Layer: 0
   m_Name: Cuphead
   m_TagString: Untagged
@@ -96,6 +98,48 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &821813370471146483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3297866336767581538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e58664391295454eb5bb2b94a8fcab5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  moveSpeed: 8
+  jumpForce: 14
+--- !u!114 &327644836417361924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3297866336767581538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f041edd8da8e264ba894c5d5c8b91c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInput
+--- !u!114 &1234838294193011150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3297866336767581538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6697fee75d4630408c4629dc5574c66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollisionDetector
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  groundCheckDistance: 0.1
 --- !u!95 &7488430209870141336
 Animator:
   serializedVersion: 7
@@ -182,24 +226,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &3454155601656879960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3297866336767581538}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e58664391295454eb5bb2b94a8fcab5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CupheadMovement
-  moveSpeed: 8
-  jumpForce: 14
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  groundCheckDistance: 0.1
 --- !u!1 &3970023091377000474
 GameObject:
   m_ObjectHideFlags: 0
@@ -225,7 +251,7 @@ Transform:
   m_GameObject: {fileID: 3970023091377000474}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.926, y: 1.284, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -271,7 +297,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7778428596531056756}
-  - component: {fileID: 2824046937242999472}
+  - component: {fileID: 4340660844079692401}
   m_Layer: 0
   m_Name: Shooting
   m_TagString: Untagged
@@ -296,7 +322,7 @@ Transform:
   - {fileID: 137993015300781680}
   m_Father: {fileID: 2631415622952368758}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2824046937242999472
+--- !u!114 &4340660844079692401
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -307,10 +333,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c426a3cde5b753c4b930b77bc3a11c67, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Shoot
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
   shootKey: 114
   peaBalletPrefab: {fileID: 3256516082269049102, guid: 4b64d5d17cf9b2442bcdff40ad82a1c1, type: 3}
-  balletSpawnPrefab: {fileID: 0}
+  balletSpawnPrefab: {fileID: 6792060069929518814, guid: de1cd052fc1689b4da0a6ffbbe1bce90, type: 3}
   firePoint: {fileID: 3219608485098249738}
+  spawnPoint: {fileID: 137993015300781680}
   timeBetweenShoots: 0.2
   anim: {fileID: 7488430209870141336}

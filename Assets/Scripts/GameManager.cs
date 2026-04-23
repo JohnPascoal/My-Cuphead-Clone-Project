@@ -5,13 +5,13 @@ public class GameManager : MonoBehaviour
 {
     [Header("Referências")]
     public GameObject player;
-    private CupheadMovement movementScript;
-    private Shooting shootingScript;
+    private PlayerMovement movementScript;
+    private PlayerCombat shootingScript;
 
     void Awake()
     {
-        movementScript = player.GetComponent<CupheadMovement>();
-        shootingScript = player.GetComponentInChildren<Shooting>();
+        movementScript = player.GetComponent<PlayerMovement>();
+        shootingScript = player.GetComponentInChildren<PlayerCombat>();
         if (movementScript != null)
         {
             movementScript.enabled = false;

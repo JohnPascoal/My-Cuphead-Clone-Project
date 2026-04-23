@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class Shooting : MonoBehaviour
+public class PlayerCombat : MonoBehaviour
 {
     [SerializeField] private KeyCode shootKey = KeyCode.R;
     [SerializeField] private PeaBallet peaBalletPrefab;
