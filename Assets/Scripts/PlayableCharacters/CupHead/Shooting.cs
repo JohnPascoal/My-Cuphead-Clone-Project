@@ -5,7 +5,9 @@ public class Shoot : MonoBehaviour
 {
     [SerializeField] private KeyCode shootKey = KeyCode.R;
     [SerializeField] private PeaBallet peaBalletPrefab;
+    [SerializeField] private BalletSpawn balletSpawnPrefab;
     [SerializeField] private Transform firePoint;
+    [SerializeField] private Transform spawnPoint;
     [SerializeField] private float timeBetweenShoots = 0.5f;
     private float shooterCounter = 0;
     [SerializeField] private Animator anim;
@@ -26,6 +28,11 @@ public class Shoot : MonoBehaviour
 
         if (anim != null)
         {
+            if (anim.GetBool("isRunning") && inputY < 0)
+            {
+                inputY = 0f;
+            }
+
             anim.SetBool("isShooting", isShooting);
 
             // Pegar a direção que o player está virado
@@ -93,5 +100,9 @@ public class Shoot : MonoBehaviour
         Quaternion bulletRotation = Quaternion.Euler(0, 0, angle);
 
         Instantiate(peaBalletPrefab, firePoint.position, bulletRotation);
+        if (balletSpawnPrefab != null)
+        {
+            Instantiate(balletSpawnPrefab, spawnPoint.position, bulletRotation);
+        }
     }
 }
