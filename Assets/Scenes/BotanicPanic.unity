@@ -2159,10 +2159,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3192542036400088522, guid: ef3eb39f5b13a68438c762cb7e413904, type: 3}
-      propertyPath: dashDuration
-      value: 0.2
-      objectReference: {fileID: 0}
     - target: {fileID: 3297866336767581538, guid: ef3eb39f5b13a68438c762cb7e413904, type: 3}
       propertyPath: m_Name
       value: Cuphead

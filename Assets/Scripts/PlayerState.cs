@@ -4,5 +4,7 @@ public enum PlayerState
     Running, 
     Jumping, 
     Dashing, 
-    Aiming
+    Aiming,
+    Shooting,
+    RunShooting
 }

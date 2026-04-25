@@ -11,6 +11,9 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] private float timeBetweenShoots = 0.5f;
     private float shooterCounter = 0;
     [SerializeField] private Animator anim;
+    private PlayerDash playerDash;
+
+    public bool IsShooting { get; private set; }
 
     void Start()
     {
@@ -18,11 +21,18 @@ public class PlayerCombat : MonoBehaviour
         {
             anim = GetComponentInParent<Animator>();
         }
+        playerDash = GetComponentInParent<PlayerDash>();
     }
 
     void Update()
     {
-        bool isShooting = Input.GetKey(shootKey);
+        IsShooting = Input.GetKey(shootKey);
+
+        if (playerDash != null && playerDash.IsDashing)
+        {
+            IsShooting = false; // no estado dash não pode disparar
+        }
+
         float inputX = Input.GetAxisRaw("Horizontal");
         float inputY = Input.GetAxisRaw("Vertical");
 
@@ -33,7 +43,7 @@ public class PlayerCombat : MonoBehaviour
                 inputY = 0f;
             }
 
-            anim.SetBool("isShooting", isShooting);
+            anim.SetBool("isShooting", IsShooting);
 
             // Pegar a direção que o player está virado
             float facingDirection = Mathf.Sign(transform.lossyScale.x); // 1 = direita, -1 = esquerda
@@ -63,11 +73,13 @@ public class PlayerCombat : MonoBehaviour
             anim.Update(0f);
         }
 
-        if (Input.GetKeyDown(shootKey))
+        if (!IsShooting && !Input.GetKeyDown(shootKey)) return;
+
+        if (Input.GetKeyDown(shootKey) && !(playerDash != null && playerDash.IsDashing))
         {
             ShootProjectile(inputX, inputY);
         }
-        if (Input.GetKey(shootKey))
+        if (IsShooting)
         {
             shooterCounter -= Time.deltaTime;
             if (shooterCounter <= 0)
@@ -80,10 +92,7 @@ public class PlayerCombat : MonoBehaviour
 
     private void ShootProjectile(float x, float y)
     {
-        // Se o player está virado usando scale X negativo, pegamos a direção global correta.
         float facingDirection = Mathf.Sign(transform.lossyScale.x);
-
-        // Se não tivermos nenhum direcional pressionado (x=0, y=0), atira para onde está virado
         if (x == 0 && y == 0)
         {
             x = facingDirection;
@@ -91,11 +100,6 @@ public class PlayerCombat : MonoBehaviour
 
         // Calcula a direção em vetor para a mira
         Vector2 shootDir = new Vector2(x, y).normalized;
-
-        // O segredo aqui é NÃO mexer no "firePoint.rotation".
-        // Como o player roda virando a escala X em negativo no CupheadMovement,
-        // mudar a rotação de um objeto filho (firepoint) vai causar bugs de matriz na Unity.
-        // Em vez disso, nós passamos o ângulo direto para a bala nascer virada.
         float angle = Mathf.Atan2(shootDir.y, shootDir.x) * Mathf.Rad2Deg;
         Quaternion bulletRotation = Quaternion.Euler(0, 0, angle);
 

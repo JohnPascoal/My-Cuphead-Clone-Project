@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     private PlayerInput playerInput;
     private PlayerDash playerDash;
+    private PlayerCombat playerCombat;
     private float jumpVelocity = 0f;
 
     void Start()
@@ -19,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
         playerInput = GetComponent<PlayerInput>();
         collisions = GetComponent<CollisionDetector>();
         playerDash = GetComponent<PlayerDash>();
+        playerCombat = GetComponentInChildren<PlayerCombat>();
     }
 
     private void FixedUpdate()
@@ -55,6 +57,15 @@ public class PlayerMovement : MonoBehaviour
             case PlayerState.Aiming:
                 HandleAiming();
                 break;
+            case PlayerState.Dashing:
+                HandleDashing();
+                break;
+            case PlayerState.Shooting:
+                HandleShooting();
+                break;
+            case PlayerState.RunShooting:
+                HandleRunShooting();
+                break;
         }
     }
 
@@ -83,16 +94,48 @@ public class PlayerMovement : MonoBehaviour
         UpdateAnimations();
     }
 
+    void HandleDashing()
+    {
+        UpdateAnimations();
+    }
+
+    void HandleShooting()
+    {
+        HandleJumping();
+        UpdateAnimations();
+    }
+
+    void HandleRunShooting()
+    {
+        FlipSprite();
+        HandleJumping();
+        UpdateAnimations();
+    }
+
     void DetermineState()
     {
-        if (playerInput.AimLocked && collisions.IsGrounded)
+        bool isShooting = playerCombat != null && playerCombat.IsShooting;
+
+        if (playerDash != null && playerDash.IsDashing)
+            currentState = PlayerState.Dashing;
+        else if (playerInput.AimLocked && collisions.IsGrounded)
             currentState = PlayerState.Aiming;
         else if (!collisions.IsGrounded)
             currentState = PlayerState.Jumping;
         else if (Mathf.Abs(playerInput.Horizontal) > 0f)
-            currentState = PlayerState.Running;
+        {
+            if (isShooting)
+                currentState = PlayerState.RunShooting;
+            else
+                currentState = PlayerState.Running;
+        }
         else
-            currentState = PlayerState.Idle;
+        {
+            if (isShooting)
+                currentState = PlayerState.Shooting;
+            else
+                currentState = PlayerState.Idle;
+        }
     }
     void HandleJumping()
     {
