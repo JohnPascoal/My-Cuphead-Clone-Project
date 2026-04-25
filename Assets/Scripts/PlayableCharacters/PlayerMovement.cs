@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private PlayerInput playerInput;
+    private PlayerDash playerDash;
     private float jumpVelocity = 0f;
 
     void Start()
@@ -17,10 +18,14 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         playerInput = GetComponent<PlayerInput>();
         collisions = GetComponent<CollisionDetector>();
+        playerDash = GetComponent<PlayerDash>();
     }
 
     private void FixedUpdate()
     {
+        if (playerDash != null && playerDash.IsDashing) 
+            return; // Impede que o movimento normal sobrescreva o dash
+
         float currentSpeed = (playerInput.AimLocked && collisions.IsGrounded) ? 0f : moveSpeed;
         Vector2 newVelocity = new Vector2(playerInput.Horizontal * currentSpeed, rb.linearVelocity.y);
         
