@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
@@ -57,5 +58,14 @@ public class Movement : MonoBehaviour
         scale.x *= -1;
         transform.localScale = scale;
         faceinfLeft = !faceinfLeft;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        // Verifica se colidiu com algum objeto na layer "Scene"
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Scene"))
+        {
+            SceneManager.LoadScene(1);
+        }
     }
 }

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1184113243160229098
+--- !u!1 &4094528349398853763
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,73 +8,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2032788285030859244}
+  - component: {fileID: 4757718541839116896}
+  - component: {fileID: 5088395587020201971}
+  - component: {fileID: 4707956841054223512}
+  - component: {fileID: 4975860359824421705}
+  - component: {fileID: 7284930253349073056}
+  - component: {fileID: 914031512240660318}
   m_Layer: 0
-  m_Name: FirePoint
+  m_Name: Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2032788285030859244
+--- !u!4 &4757718541839116896
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1184113243160229098}
+  m_GameObject: {fileID: 4094528349398853763}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.54, y: 0.8, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.8512836, y: -3.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1800677812460263373}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3024589352569344624
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1800677812460263373}
-  - component: {fileID: 8393447967836391449}
-  - component: {fileID: 2397114286813677604}
-  - component: {fileID: 4211941747962471475}
-  - component: {fileID: 180667188248499728}
-  m_Layer: 8
-  m_Name: SalSpudder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1800677812460263373
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3024589352569344624}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.54, y: -0.8, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2032788285030859244}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &8393447967836391449
+--- !u!212 &5088395587020201971
 SpriteRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3024589352569344624}
+  m_GameObject: {fileID: 4094528349398853763}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -114,29 +83,42 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 57034511
   m_SortingLayer: 2
-  m_SortingOrder: 13
+  m_SortingOrder: 14
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -1096573534, guid: f4fa52885984bfd48bd4c7a91f4ea94e, type: 3}
+  m_Sprite: {fileID: 1634428234, guid: f4fa52885984bfd48bd4c7a91f4ea94e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 6.9743547, y: 6.9861107}
+  m_Size: {x: 1.7227489, y: 1.8472221}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!95 &2397114286813677604
+--- !u!114 &4707956841054223512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4094528349398853763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7c2eff5fd2162746a4513d70f75fc08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SalSpudderProjectile
+  speed: 10
+--- !u!95 &4975860359824421705
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3024589352569344624}
+  m_GameObject: {fileID: 4094528349398853763}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2e4ba4dcf31217643a4032b3a2fe28ff, type: 2}
+  m_Controller: {fileID: 9100000, guid: 74852e5b79898f84aa29ce449e65fee7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -148,13 +130,13 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!70 &4211941747962471475
-CapsuleCollider2D:
+--- !u!58 &7284930253349073056
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3024589352569344624}
+  m_GameObject: {fileID: 4094528349398853763}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -178,28 +160,36 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.2310698, y: -1.0398169}
-  m_Size: {x: 3.600325, y: 5.019759}
-  m_Direction: 0
---- !u!114 &180667188248499728
-MonoBehaviour:
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.78
+--- !u!50 &914031512240660318
+Rigidbody2D:
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3024589352569344624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29988275d3c28e44dac146deada4f7a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SalSpudderAttack
-  health: 100
-  projetilPrefab: {fileID: 0}
-  firePoint: {fileID: 0}
-  projectilesPerAttack: 3
-  fireRate: 0.5
-  idleDuration: 2
+  m_GameObject: {fileID: 4094528349398853763}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
