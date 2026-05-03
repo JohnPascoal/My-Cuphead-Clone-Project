@@ -15,6 +15,10 @@ public class SalSpudderProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Player"))
+        {
+            Destroy(gameObject);
+        }
         if (collision.gameObject.layer == LayerMask.NameToLayer("Border"))
         {
             Destroy(gameObject, 2f);

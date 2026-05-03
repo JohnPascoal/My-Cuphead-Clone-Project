@@ -6,5 +6,6 @@ public enum PlayerState
     Dashing, 
     Aiming,
     Shooting,
-    RunShooting
+    RunShooting,
+    Hit
 }

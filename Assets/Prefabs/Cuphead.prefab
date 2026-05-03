@@ -14,10 +14,11 @@ GameObject:
   - component: {fileID: 327644836417361924}
   - component: {fileID: 1234838294193011150}
   - component: {fileID: 3192542036400088522}
+  - component: {fileID: 4793022835890334725}
   - component: {fileID: 7488430209870141336}
   - component: {fileID: 7491202898302532830}
   - component: {fileID: 5175523152185403998}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cuphead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,6 +156,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDash
   dashSpeed: 15
   dashDuration: 0.3
+--- !u!114 &4793022835890334725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3297866336767581538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81837c1abc947dd479638b5b8ecb653d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  maxHealth: 3
+  invulnerabilityDuration: 1.5
+  knockbackForce: 5
+  knockbackDirection: {x: 1, y: 1}
 --- !u!95 &7488430209870141336
 Animator:
   serializedVersion: 7

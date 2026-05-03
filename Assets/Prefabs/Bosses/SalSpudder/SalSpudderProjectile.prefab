@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 4975860359824421705}
   - component: {fileID: 7284930253349073056}
   - component: {fileID: 914031512240660318}
-  m_Layer: 0
-  m_Name: Projectile
-  m_TagString: Untagged
+  m_Layer: 11
+  m_Name: SalSpudderProjectile
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

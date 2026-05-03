@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     private PlayerInput playerInput;
     private PlayerDash playerDash;
     private PlayerCombat playerCombat;
+    private PlayerHealth playerHealth;
     private float jumpVelocity = 0f;
 
     void Start()
@@ -21,10 +22,14 @@ public class PlayerMovement : MonoBehaviour
         collisions = GetComponent<CollisionDetector>();
         playerDash = GetComponent<PlayerDash>();
         playerCombat = GetComponentInChildren<PlayerCombat>();
+        playerHealth = GetComponent<PlayerHealth>();
     }
 
     private void FixedUpdate()
     {
+        if (playerHealth != null && playerHealth.IsHit)
+            return; // Impede que o movimento normal sobrescreva o knockback de dano
+            
         if (playerDash != null && playerDash.IsDashing) 
             return; // Impede que o movimento normal sobrescreva o dash
 
@@ -66,7 +71,16 @@ public class PlayerMovement : MonoBehaviour
             case PlayerState.RunShooting:
                 HandleRunShooting();
                 break;
+            case PlayerState.Hit:
+                HandleHit();
+                break;
         }
+    }
+
+    void HandleHit()
+    {
+        // O comportamento de "Hit" e knockback já está a ser processado no PlayerHealth.
+        // Apenas evitamos atualizar animações de movimento.
     }
 
     void HandleIdle()
@@ -116,7 +130,9 @@ public class PlayerMovement : MonoBehaviour
     {
         bool isShooting = playerCombat != null && playerCombat.IsShooting;
 
-        if (playerDash != null && playerDash.IsDashing)
+        if (playerHealth != null && playerHealth.IsHit)
+            currentState = PlayerState.Hit;
+        else if (playerDash != null && playerDash.IsDashing)
             currentState = PlayerState.Dashing;
         else if (playerInput.AimLocked && collisions.IsGrounded)
             currentState = PlayerState.Aiming;
