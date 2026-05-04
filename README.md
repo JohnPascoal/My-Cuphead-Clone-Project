@@ -1,5 +1,7 @@
 # Cuphead Unity Study Project ☕️
 
+🇺🇸 English | [🇪🇸 Español](./docs/README.es.md) | [🏴󠁥󠁳󠁧󠁡󠁿 Galego](./docs/README.gl.md) | [🇧🇷 Português (Brasil)](./docs/README.pt-BR.md) | [🇵🇹 Português (Portugal)](./docs/README.pt-PT.md)
+
 This repository contains a study project developed in the **Unity Engine**, with the goal of recreating and analyzing the gameplay mechanics, collision systems, and AI states of the original *Cuphead* game.
 
 ---
@@ -18,7 +20,7 @@ This project is **exclusively for educational, non-commercial, and portfolio pur
 ## 🎯 Study Goals
 
 The main focus of this implementation was the technical challenge of replicating the fluidity of the original game, focusing on:
-* **State Machines (FSM):**  Managing player states (Idle, Run, Jump, Dash, Parry).
+* **State Machines (FSM):** Managing player states (Idle, Run, Jump, Dash, Parry).
 * **Boss AI:** Implementation of cyclic attack patterns and phase transitions.
 * **Frame-by-Frame Animation:** Synchronizing complex 2D animations with collision logic (Hitboxes).
 * **Parallax Effect:** Recreating the classic visual depth of 1930s cartoons.
@@ -41,6 +43,7 @@ Before cloning the project, ensure you have the following installed:
    Open your terminal and run the following command:
    ```bash
    git clone https://github.com/JohnPascoal/My-Cuphead-Clone-Project.git
+   ```
 
 2. **Add the project to Unity Hub**
 
