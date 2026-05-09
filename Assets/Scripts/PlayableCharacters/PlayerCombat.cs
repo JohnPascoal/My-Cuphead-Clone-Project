@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
-    [SerializeField] private KeyCode shootKey = KeyCode.R;
+    private PlayerInput playerInput;
     [SerializeField] private PeaBallet peaBalletPrefab;
     [SerializeField] private GameObject balletSpawnPrefab;
     [SerializeField] private Transform firePoint;
@@ -17,6 +17,7 @@ public class PlayerCombat : MonoBehaviour
 
     void Start()
     {
+        playerInput = GetComponentInParent<PlayerInput>();
         if (anim == null)
         {
             anim = GetComponentInParent<Animator>();
@@ -26,15 +27,19 @@ public class PlayerCombat : MonoBehaviour
 
     void Update()
     {
-        IsShooting = Input.GetKey(shootKey);
+        bool shootTrigger = playerInput.ShootTrigger;
+        playerInput.UseShoot();
+
+        IsShooting = playerInput.ShootPressed;
 
         if (playerDash != null && playerDash.IsDashing)
         {
             IsShooting = false; // no estado dash não pode disparar
         }
 
-        float inputX = Input.GetAxisRaw("Horizontal");
-        float inputY = Input.GetAxisRaw("Vertical");
+        // Alterado de GetAxisRaw para as variáveis capturadas do novo Input System
+        float inputX = playerInput.MoveInput.x;
+        float inputY = playerInput.MoveInput.y;
 
         if (anim != null)
         {
@@ -73,9 +78,9 @@ public class PlayerCombat : MonoBehaviour
             anim.Update(0f);
         }
 
-        if (!IsShooting && !Input.GetKeyDown(shootKey)) return;
+        if (!IsShooting && !shootTrigger) return;
 
-        if (Input.GetKeyDown(shootKey) && !(playerDash != null && playerDash.IsDashing))
+        if (shootTrigger && !(playerDash != null && playerDash.IsDashing))
         {
             ShootProjectile(inputX, inputY);
         }

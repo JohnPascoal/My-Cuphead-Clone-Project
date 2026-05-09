@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
             return; // Impede que o movimento normal sobrescreva o dash
 
         float currentSpeed = (playerInput.AimLocked && collisions.IsGrounded) ? 0f : moveSpeed;
-        Vector2 newVelocity = new Vector2(playerInput.Horizontal * currentSpeed, rb.linearVelocity.y);
+        Vector2 newVelocity = new Vector2(playerInput.MoveInput.x * currentSpeed, rb.linearVelocity.y);
         
         if (jumpVelocity > 0)
         {
@@ -138,7 +138,7 @@ public class PlayerMovement : MonoBehaviour
             currentState = PlayerState.Aiming;
         else if (!collisions.IsGrounded)
             currentState = PlayerState.Jumping;
-        else if (Mathf.Abs(playerInput.Horizontal) > 0f)
+        else if (Mathf.Abs(playerInput.MoveInput.x) > 0f)
         {
             if (isShooting)
                 currentState = PlayerState.RunShooting;
@@ -159,11 +159,12 @@ public class PlayerMovement : MonoBehaviour
         {
             jumpVelocity = jumpForce;
         }
+        playerInput.UseJump();
     }
 
     void UpdateAnimations()
     {
-        bool isRunning = Mathf.Abs(playerInput.Horizontal) > 0f && !(playerInput.AimLocked && collisions.IsGrounded);
+        bool isRunning = Mathf.Abs(playerInput.MoveInput.x) > 0f && !(playerInput.AimLocked && collisions.IsGrounded);
         anim.SetBool("isRunning", isRunning);
         anim.SetBool("isJumping", !collisions.IsGrounded);
         anim.SetBool("isAimLocked", playerInput.AimLocked);
@@ -171,9 +172,9 @@ public class PlayerMovement : MonoBehaviour
 
     void FlipSprite()
     {
-        if (playerInput.Horizontal > 0)
+        if (playerInput.MoveInput.x > 0)
             transform.localScale = new Vector3(1, 1, 1);
-        else if (playerInput.Horizontal < 0)
+        else if (playerInput.MoveInput.x < 0)
             transform.localScale = new Vector3(-1, 1, 1);
     }
 }
